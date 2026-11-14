@@ -9742,8 +9742,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  ws@8.18.3:
-    resolution: {integrity: sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==}
+  ws@8.22.2:
+    resolution: {integrity: sha512-/rEZ2ejown2N5gxVTHUu9bVVC7ttu0/Tgzf5hbTOixR3Fs7mbbXgn2DbdbcKgJOmpQMtrIUWivtYuVMnp/W/yA==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -13712,7 +13712,7 @@ snapshots:
       sirv: 3.0.2
       tinyrainbow: 2.0.0
       vitest: 3.2.7(@types/debug@4.1.12)(@types/node@20.19.10)(@vitest/browser@3.2.7)(jiti@1.21.7)(jsdom@28.1.0(@noble/hashes@1.8.0))(lightningcss@1.32.0)(msw@2.10.4(@types/node@20.19.10)(typescript@5.9.2))(tsx@4.20.3)(yaml@2.8.1)
-      ws: 8.18.3
+      ws: 8.22.2
     optionalDependencies:
       playwright: 1.61.0
     transitivePeerDependencies:
@@ -13732,7 +13732,7 @@ snapshots:
       sirv: 3.0.2
       tinyrainbow: 2.0.0
       vitest: 3.2.7(@types/debug@4.1.12)(@types/node@20.19.10)(@vitest/browser@3.2.7)(jiti@2.7.0)(jsdom@28.1.0(@noble/hashes@1.8.0))(lightningcss@1.32.0)(msw@2.10.4(@types/node@20.19.10)(typescript@5.9.2))(tsx@4.20.3)(yaml@2.8.1)
-      ws: 8.18.3
+      ws: 8.22.2
     optionalDependencies:
       playwright: 1.61.0
     transitivePeerDependencies:
@@ -17983,7 +17983,7 @@ snapshots:
       debug: 4.4.3
       devtools-protocol: 0.0.1367902
       typed-query-selector: 2.12.0
-      ws: 8.18.3
+      ws: 8.22.2
     transitivePeerDependencies:
       - bare-buffer
       - bufferutil
@@ -19922,7 +19922,7 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  ws@8.18.3: {}
+  ws@8.22.2: {}
 
   wsl-utils@1.0.1:
     dependencies:
