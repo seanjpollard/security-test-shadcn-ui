@@ -155,7 +155,7 @@ importers:
         version: 10.1.0
       '@formisch/react':
         specifier: ^0.4.4
-        version: 0.4.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.2)(valibot@1.4.0(typescript@5.9.2))
+        version: 0.4.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.2)(valibot@1.5.0(typescript@5.9.2))
       '@hookform/resolvers':
         specifier: ^3.10.0
         version: 3.10.0(react-hook-form@7.62.0(react@19.2.3))(zod@3.25.76)
@@ -347,7 +347,7 @@ importers:
         version: 26.0.0
       valibot:
         specifier: ^1.4.0
-        version: 1.4.0(typescript@5.9.2)
+        version: 1.5.0(typescript@5.9.2)
       vaul:
         specifier: 1.1.2
         version: 1.1.2(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -9540,8 +9540,8 @@ packages:
     resolution: {integrity: sha512-Qo+uWgilfSmAhXCMav1uYFynlQO7fMFiMVZsQqZRMIXp0O7rR7qjkj+cPvBHLgBqi960QCoo/PH2/6ZtVqKvrg==}
     hasBin: true
 
-  valibot@1.4.0:
-    resolution: {integrity: sha512-iC/x7fVcSyOwlm/VSt7RlHnzNGLGvR9GnxdifUeWoCJo0q4ZZvrVkIHC6faTlkxG47I2Y4UrFquPuVHCrOnrLg==}
+  valibot@1.5.0:
+    resolution: {integrity: sha512-nil6AkP2TChWL43Z5uJ6GTxX01CUA+g8LWUM+N/rB9NBbkUMaUsi9PUNzlUPgoKASgmx9f7eGOYpJ04/fSa6FQ==}
     peerDependencies:
       typescript: '>=5'
     peerDependenciesMeta:
@@ -10875,11 +10875,11 @@ snapshots:
 
   '@floating-ui/utils@0.2.11': {}
 
-  '@formisch/react@0.4.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.2)(valibot@1.4.0(typescript@5.9.2))':
+  '@formisch/react@0.4.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.2)(valibot@1.5.0(typescript@5.9.2))':
     dependencies:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
-      valibot: 1.4.0(typescript@5.9.2)
+      valibot: 1.5.0(typescript@5.9.2)
     optionalDependencies:
       typescript: 5.9.2
 
@@ -19569,7 +19569,7 @@ snapshots:
 
   uuid@14.0.0: {}
 
-  valibot@1.4.0(typescript@5.9.2):
+  valibot@1.5.0(typescript@5.9.2):
     optionalDependencies:
       typescript: 5.9.2
 
