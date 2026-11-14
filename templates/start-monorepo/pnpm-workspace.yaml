@@ -7,3 +7,7 @@ allowBuilds:
   lightningcss: true
   unrs-resolver: true
   msw: false
+overrides:
+  'esbuild@0.27.7': '0.28.1' # lockwright: GHSA-g7r4-m6w7-qqqr
+  'seroval@1.6.8': '1.6.11' # lockwright: GHSA-7rv5-mrxv-xcr9, GHSA-97r2-qh9m-474h, GHSA-9wx9-5pv9-3349, GHSA-f86p-h4j2-7qgj, GHSA-jp82-f5mq-hwhp, GHSA-p6vx-979v-rg4c, GHSA-wp97-x4hv-qvhp
+  'seroval@1.5.4': '1.6.11' # lockwright: GHSA-7rv5-mrxv-xcr9, GHSA-97r2-qh9m-474h, GHSA-9wx9-5pv9-3349, GHSA-f86p-h4j2-7qgj, GHSA-jp82-f5mq-hwhp, GHSA-p6vx-979v-rg4c, GHSA-wp97-x4hv-qvhp

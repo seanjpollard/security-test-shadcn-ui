@@ -7,3 +7,5 @@ allowBuilds:
   sharp: true
   unrs-resolver: true
   msw: false
+overrides:
+  'baseline-browser-mapping@2.10.32': '2.11.0' # lockwright: GHSA-w5vr-8v7q-w6rv
