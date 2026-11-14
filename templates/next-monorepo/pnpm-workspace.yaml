@@ -7,3 +7,5 @@ allowBuilds:
   sharp: true
   unrs-resolver: true
   msw: false
+overrides:
+  'browserslist@4.28.2': '4.28.7' # lockwright: GHSA-73wf-gq98-2v4g, GHSA-c83g-rgw3-j3cx
