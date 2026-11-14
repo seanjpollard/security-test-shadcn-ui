@@ -5,3 +5,5 @@ packages:
 allowBuilds:
   esbuild: true
   msw: false
+overrides:
+  'minimatch@10.2.6': '11.0.1' # lockwright: GHSA-g3hv-75wg-m249
