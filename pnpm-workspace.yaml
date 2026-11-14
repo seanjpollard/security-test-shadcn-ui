@@ -17,3 +17,5 @@ minimumReleaseAgeExclude:
   - "@tanstack/table-core"
   - "@tanstack/react-store"
   - "@tanstack/store"
+overrides:
+  'esbuild@0.25.12': '0.28.1' # lockwright: GHSA-g7r4-m6w7-qqqr
