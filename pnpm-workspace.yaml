@@ -17,3 +17,5 @@ minimumReleaseAgeExclude:
   - "@tanstack/table-core"
   - "@tanstack/react-store"
   - "@tanstack/store"
+overrides:
+  'picomatch@2.3.2': '4.0.4' # lockwright: GHSA-3v7f-55p6-f55p, GHSA-c2c7-rcm5-vvqj
